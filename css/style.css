@@ -30,7 +30,7 @@ body {
 .slider {
   height: 100%;
   transform: rotate(15deg);
-  top: 15vh;
+  top: 10vh;
 }
 
 .slider.swiper {
