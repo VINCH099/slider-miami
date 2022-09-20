@@ -30,7 +30,7 @@ document.querySelectorAll('.slider__item').forEach((item) => {
   })
 })
 
-let desc = document.querySelector('.description')
+let about = document.querySelector('.about')
 sliderMain.on('slideChange', (e) => {
-  sliderMain.activeIndex > 0 ? desc.classList.add('hidden') : desc.classList.remove('hidden')
+  sliderMain.activeIndex > 0 ? about.classList.add('hidden') : about.classList.remove('hidden')
 })
